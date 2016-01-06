@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #FAFAFA;
+	text-decoration: none;
+	}
+
+#slide1 {
+	background-attachment: fixed;
+	background: url('background.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#slide2 {
+	background-image: url('codeCapture.png');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#centerDiv {
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -150px;
+	color: white;
+	text-align: center;
+	opacity: 0.75;
+    }
+
+#logo {
+	display: block;
+	margin: auto;
+}
+
+#contentDiv {
+	width: 100%;
+	background-color: #453f50;
+	height: 300px;
+	position: absolute;
+	top: 100%;	
+}
+
+#bioSection {
+	width: 60%;
+	margin: 25px auto 0 auto;
+}
+
+.bioTxt {
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 24px;
+}	
+
+#aboutHeader {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+}
+
+#nameHeader {
+	font-size: 46px;
+	font-weight: 700;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#bioPar1 {
+	font-size: 24px;
+	font-weight: 500;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#bioPar2 {
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	margin-top: 25px;
+	line-height: 35px;
+}
+
+.section {
+    font-size: 6em;
+    text-align: center;
+}
+
+.FadeIn {
+	display: none;
+}
+
+#ScrollDown {
+	bottom: 0;
+	position: absolute;
+	left: 50%;
+	margin-left: -250px;
+}
+
+#slide3 {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+} 
+
+#skillsChart {
+	font-size: 16px;
+}
